@@ -1,0 +1,3 @@
+# CommonLibSSE-NG is NOT vendored as a submodule in this fork.
+# Build with -DCOMMONLIBSSE_PATH=<path to an alandtse/CommonLibSSE-NG (ng) checkout>
+# (see CMakeLists.txt and gen.bat). The ng branch is required for Skyrim 1.7.104.

@@ -1,0 +1,38 @@
+{
+  "name": "stb-active-effects",
+  "version-string": "1.0.0",
+  "description": "STB Active Effects - a customizable SKSE active-effects HUD widget for Skyrim SE/AE.",
+  "homepage": "https://github.com/STB-Team/STB-Active-Effects",
+  "license": "MIT",
+  "builtin-baseline": "ee12231b20c95013c6638d845d04c91559a1d1ff",
+  "dependencies": [
+    "nlohmann-json",
+    "rapidcsv",
+    "simpleini",
+    "spdlog",
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    },
+    {
+      "name": "directxmath",
+      "version>=": "2025-04-03"
+    },
+    {
+      "name": "directxtk",
+      "version>=": "2025-10-27"
+    },
+    {
+      "name": "fmt",
+      "version>=": "12.1.0"
+    },
+    {
+      "name": "toml11",
+      "version>=": "4.4.0"
+    },
+    {
+      "name": "xbyak",
+      "version>=": "7.28"
+    }
+  ]
+}
